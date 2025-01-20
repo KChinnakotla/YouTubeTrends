@@ -1,7 +1,7 @@
 import requests
 
 # Replace with your API key and the target video ID
-API_KEY = "AIzaSyBUUX25FpJUsyt33p5zb9y3_L1V7agFVyA"
+API_KEY = "[API_KEY]"
 VIDEO_ID = "zd7c5tQCs1I"
 
 # Define the API URL and parameters
