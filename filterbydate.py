@@ -47,7 +47,7 @@ def get_channel_id(api_key, username=None, channel_name=None):
         return None
 
 API_KEY = "AIzaSyBUUX25FpJUsyt33p5zb9y3_L1V7agFVyA"
-CHANNEL_ID = get_channel_id(API_KEY,None,"@MOLT")
+CHANNEL_ID = get_channel_id(API_KEY,None,"@SamitoFPS")
 START_DATE = "2023-01-01T00:00:00Z"  # On jan 1st 2023 - jan 31st 2023
 END_DATE = "2023-01-31T23:59:59Z"
 
@@ -58,6 +58,7 @@ channel_params = {
     "id": CHANNEL_ID,
     "key": API_KEY
 }
+
 channel_response = requests.get(channel_url, params=channel_params).json()
 uploads_playlist_id = channel_response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
