@@ -46,7 +46,7 @@ def get_channel_id(api_key, username=None, channel_name=None):
         print("Please provide either a username or channel name.")
         return None
 
-API_KEY = "AIzaSyBUUX25FpJUsyt33p5zb9y3_L1V7agFVyA"
+API_KEY = "[API_KEY]"
 CHANNEL_ID = get_channel_id(API_KEY,None,"@MOLT")
 START_DATE = "2023-01-01T00:00:00Z"  # On jan 1st 2023 - jan 31st 2023
 END_DATE = "2023-01-31T23:59:59Z"
